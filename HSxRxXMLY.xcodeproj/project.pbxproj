@@ -17,6 +17,8 @@
 		A17F189021115388008B3972 /* HSBoutiqueIndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F188E21115388008B3972 /* HSBoutiqueIndexCell.swift */; };
 		A17F189121115388008B3972 /* HSBoutiqueIndexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17F188F21115388008B3972 /* HSBoutiqueIndexCell.xib */; };
 		A17F1893211190EC008B3972 /* HSBoutiqueSingleIndexFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F1892211190EC008B3972 /* HSBoutiqueSingleIndexFlowLayout.swift */; };
+		A17F18962111972B008B3972 /* HSRecommendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F18942111972B008B3972 /* HSRecommendHeaderView.swift */; };
+		A17F18972111972B008B3972 /* HSRecommendHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17F18952111972B008B3972 /* HSRecommendHeaderView.xib */; };
 		A194DFCA206B32F4006112A4 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A194DFC9206B32F4006112A4 /* UIView+Frame.swift */; };
 		A194DFCD206B40CA006112A4 /* HSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A194DFCC206B40CA006112A4 /* HSLoginViewController.swift */; };
 		A194DFCF206B4505006112A4 /* HSMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A194DFCE206B4505006112A4 /* HSMineViewController.swift */; };
@@ -26,6 +28,9 @@
 		A194EF3F206A363E00752B35 /* HSPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A194EF3E206A363E00752B35 /* HSPlayViewController.swift */; };
 		A194EF41206A365F00752B35 /* HSFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A194EF40206A365F00752B35 /* HSFindViewController.swift */; };
 		A194EF43206A3A9300752B35 /* HSTabbarPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A194EF42206A3A9300752B35 /* HSTabbarPlayView.swift */; };
+		A1A183352112AF090044C3D2 /* HSBoutiqueIndexHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A183332112AF090044C3D2 /* HSBoutiqueIndexHeaderView.swift */; };
+		A1A183362112AF090044C3D2 /* HSBoutiqueIndexHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A183342112AF090044C3D2 /* HSBoutiqueIndexHeaderView.xib */; };
+		A1A183382112E5BE0044C3D2 /* HSBoutiqueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A183372112E5BE0044C3D2 /* HSBoutiqueModel.swift */; };
 		A1A482032108537D00C70F88 /* HSHomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A482022108537D00C70F88 /* HSHomeNavigationBar.swift */; };
 		A1A4820521085D0F00C70F88 /* HSNavUniversalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4820421085D0F00C70F88 /* HSNavUniversalable.swift */; };
 		A1A482072108606200C70F88 /* HSHomeSearchBarable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A482062108606200C70F88 /* HSHomeSearchBarable.swift */; };
@@ -93,6 +98,8 @@
 		A17F188E21115388008B3972 /* HSBoutiqueIndexCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBoutiqueIndexCell.swift; sourceTree = "<group>"; };
 		A17F188F21115388008B3972 /* HSBoutiqueIndexCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSBoutiqueIndexCell.xib; sourceTree = "<group>"; };
 		A17F1892211190EC008B3972 /* HSBoutiqueSingleIndexFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBoutiqueSingleIndexFlowLayout.swift; sourceTree = "<group>"; };
+		A17F18942111972B008B3972 /* HSRecommendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSRecommendHeaderView.swift; sourceTree = "<group>"; };
+		A17F18952111972B008B3972 /* HSRecommendHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSRecommendHeaderView.xib; sourceTree = "<group>"; };
 		A194DFC9206B32F4006112A4 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		A194DFCC206B40CA006112A4 /* HSLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSLoginViewController.swift; sourceTree = "<group>"; };
 		A194DFCE206B4505006112A4 /* HSMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSMineViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +109,9 @@
 		A194EF3E206A363E00752B35 /* HSPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayViewController.swift; sourceTree = "<group>"; };
 		A194EF40206A365F00752B35 /* HSFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSFindViewController.swift; sourceTree = "<group>"; };
 		A194EF42206A3A9300752B35 /* HSTabbarPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTabbarPlayView.swift; sourceTree = "<group>"; };
+		A1A183332112AF090044C3D2 /* HSBoutiqueIndexHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBoutiqueIndexHeaderView.swift; sourceTree = "<group>"; };
+		A1A183342112AF090044C3D2 /* HSBoutiqueIndexHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSBoutiqueIndexHeaderView.xib; sourceTree = "<group>"; };
+		A1A183372112E5BE0044C3D2 /* HSBoutiqueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBoutiqueModel.swift; sourceTree = "<group>"; };
 		A1A482022108537D00C70F88 /* HSHomeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSHomeNavigationBar.swift; sourceTree = "<group>"; };
 		A1A4820421085D0F00C70F88 /* HSNavUniversalable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSNavUniversalable.swift; sourceTree = "<group>"; };
 		A1A482062108606200C70F88 /* HSHomeSearchBarable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSHomeSearchBarable.swift; sourceTree = "<group>"; };
@@ -251,6 +261,8 @@
 		A194EF28206A32A800752B35 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A17F18942111972B008B3972 /* HSRecommendHeaderView.swift */,
+				A17F18952111972B008B3972 /* HSRecommendHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +312,7 @@
 		A194EF2E206A32A800752B35 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A1A183372112E5BE0044C3D2 /* HSBoutiqueModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +321,8 @@
 			isa = PBXGroup;
 			children = (
 				A17F188D2111535C008B3972 /* Cell */,
+				A1A183332112AF090044C3D2 /* HSBoutiqueIndexHeaderView.swift */,
+				A1A183342112AF090044C3D2 /* HSBoutiqueIndexHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -775,7 +790,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D38C2F2063518500616053 /* LaunchScreen.storyboard in Resources */,
+				A17F18972111972B008B3972 /* HSRecommendHeaderView.xib in Resources */,
 				A17F189121115388008B3972 /* HSBoutiqueIndexCell.xib in Resources */,
+				A1A183362112AF090044C3D2 /* HSBoutiqueIndexHeaderView.xib in Resources */,
 				A160E655207C531D009DE4BF /* HSMineHeaderView.xib in Resources */,
 				A1D38C2C2063518500616053 /* Assets.xcassets in Resources */,
 				A1D38C2A2063518500616053 /* Main.storyboard in Resources */,
@@ -943,6 +960,7 @@
 				A1AD28FE206CCF0700429D19 /* HSNavMessageable.swift in Sources */,
 				A17F1893211190EC008B3972 /* HSBoutiqueSingleIndexFlowLayout.swift in Sources */,
 				A194EF3B206A331000752B35 /* HSHomeViewController.swift in Sources */,
+				A1A183382112E5BE0044C3D2 /* HSBoutiqueModel.swift in Sources */,
 				A1AD2906206CD03400429D19 /* HSNavSearchable.swift in Sources */,
 				A1C4FCF42063B23000A3A7EA /* UIColor+HexColor.swift in Sources */,
 				A1C4FCF12063AE4300A3A7EA /* Common.swift in Sources */,
@@ -951,9 +969,11 @@
 				A1D60B65206A20CF00D8BCA3 /* HSNavBackable.swift in Sources */,
 				A194DFCA206B32F4006112A4 /* UIView+Frame.swift in Sources */,
 				A1A482032108537D00C70F88 /* HSHomeNavigationBar.swift in Sources */,
+				A17F18962111972B008B3972 /* HSRecommendHeaderView.swift in Sources */,
 				A1B2405E2068DF980051F035 /* BaseViewController.swift in Sources */,
 				A1AD28FC206CCEDF00429D19 /* HSNavSettingable.swift in Sources */,
 				A1B97AFE20D122FF00215958 /* HSSettingViewModel.swift in Sources */,
+				A1A183352112AF090044C3D2 /* HSBoutiqueIndexHeaderView.swift in Sources */,
 				A17F188C21115272008B3972 /* HSBoutiqueIndexFlowLayout.swift in Sources */,
 				A17F189021115388008B3972 /* HSBoutiqueIndexCell.swift in Sources */,
 				A1A4820521085D0F00C70F88 /* HSNavUniversalable.swift in Sources */,

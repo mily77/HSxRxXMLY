@@ -37,7 +37,7 @@ class HSBoutiqueIndexCell: UICollectionViewCell {
         
     }
 
-    static func singalItemSize() -> CGSize {
+    static func singleItemSize() -> CGSize {
         // 结合 FlowLayout 设置
         let width = (kScreenW - Metric.margin * (Metric.singleColumn - 1 + 1.5)) / Metric.singleColumn
         

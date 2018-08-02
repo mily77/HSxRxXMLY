@@ -26,14 +26,14 @@ class HSBoutiqueSingleIndexFlowLayout: UICollectionViewFlowLayout {
             self.scrollDirection = scrollDirection
             self.itemSize = HSBoutiqueIndexCell.singleItemSize()
             self.minimumLineSpacing = 0.0
-            let margin = HCBoutiqueIndexCell.itemMargin()
+            let margin = HSBoutiqueIndexCell.itemMargin()
             self.sectionInset = UIEdgeInsetsMake(0, margin * 1.5, 0, 0)
             
         } else {
             self.scrollDirection = scrollDirection
             self.itemSize = HSBoutiqueIndexCell.itemSize()
             self.minimumLineSpacing = 0.0
-            let margin = HCBoutiqueIndexCell.itemMargin()
+            let margin = HSBoutiqueIndexCell.itemMargin()
             self.sectionInset = UIEdgeInsetsMake(0, margin * 1.5, 0, margin * 1.5)
         }
     }
