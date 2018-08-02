@@ -40,7 +40,8 @@ class HSBoutiqueIndexHeaderView: UICollectionReusableView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        initUI()
+        bindUI()
     }
     static func defaultHeaderSize() ->CGSize {
         return CGSize(width: kScreenW, height: Metric.defaultHeight)
