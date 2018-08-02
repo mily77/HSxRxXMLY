@@ -31,6 +31,7 @@
 		A1A183352112AF090044C3D2 /* HSBoutiqueIndexHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A183332112AF090044C3D2 /* HSBoutiqueIndexHeaderView.swift */; };
 		A1A183362112AF090044C3D2 /* HSBoutiqueIndexHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A183342112AF090044C3D2 /* HSBoutiqueIndexHeaderView.xib */; };
 		A1A183382112E5BE0044C3D2 /* HSBoutiqueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A183372112E5BE0044C3D2 /* HSBoutiqueModel.swift */; };
+		A1A1833A2112F0940044C3D2 /* HSBoutiqueIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A183392112F0940044C3D2 /* HSBoutiqueIndexModel.swift */; };
 		A1A482032108537D00C70F88 /* HSHomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A482022108537D00C70F88 /* HSHomeNavigationBar.swift */; };
 		A1A4820521085D0F00C70F88 /* HSNavUniversalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4820421085D0F00C70F88 /* HSNavUniversalable.swift */; };
 		A1A482072108606200C70F88 /* HSHomeSearchBarable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A482062108606200C70F88 /* HSHomeSearchBarable.swift */; };
@@ -112,6 +113,7 @@
 		A1A183332112AF090044C3D2 /* HSBoutiqueIndexHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBoutiqueIndexHeaderView.swift; sourceTree = "<group>"; };
 		A1A183342112AF090044C3D2 /* HSBoutiqueIndexHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSBoutiqueIndexHeaderView.xib; sourceTree = "<group>"; };
 		A1A183372112E5BE0044C3D2 /* HSBoutiqueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBoutiqueModel.swift; sourceTree = "<group>"; };
+		A1A183392112F0940044C3D2 /* HSBoutiqueIndexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBoutiqueIndexModel.swift; sourceTree = "<group>"; };
 		A1A482022108537D00C70F88 /* HSHomeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSHomeNavigationBar.swift; sourceTree = "<group>"; };
 		A1A4820421085D0F00C70F88 /* HSNavUniversalable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSNavUniversalable.swift; sourceTree = "<group>"; };
 		A1A482062108606200C70F88 /* HSHomeSearchBarable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSHomeSearchBarable.swift; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				A1A183372112E5BE0044C3D2 /* HSBoutiqueModel.swift */,
+				A1A183392112F0940044C3D2 /* HSBoutiqueIndexModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -944,6 +947,7 @@
 				A194EF3D206A360100752B35 /* HSHearViewController.swift in Sources */,
 				A1D38C272063518500616053 /* ViewController.swift in Sources */,
 				A1B97AFC20D1223900215958 /* HSSettingCellModel.swift in Sources */,
+				A1A1833A2112F0940044C3D2 /* HSBoutiqueIndexModel.swift in Sources */,
 				A1A482072108606200C70F88 /* HSHomeSearchBarable.swift in Sources */,
 				A1B240602068EC140051F035 /* UIImage+Color.swift in Sources */,
 				A1CE1DFF2079FE080038AB95 /* HSMineAnchorsable.swift in Sources */,
